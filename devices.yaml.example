@@ -1,0 +1,14 @@
+devices:
+  - name: RouterA
+    ip: 10.1.10.254
+    username: admin
+    password: password
+    device_type: nec_ix
+    base_config : "./config/router/RouterA.txt"
+
+  - name: RouterB
+    ip: 10.2.10.254
+    username: admin
+    password: password
+    device_type: nec_ix
+    base_config : "./config/router/RouterB.txt"
